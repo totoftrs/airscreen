@@ -1,0 +1,74 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background: #0d1117;
+  color: #fff;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  overflow: hidden;
+}
+
+/* Variables de base — cible principale 1024×768 */
+:root {
+  --topbar-height: 52px;
+  --navbar-height: 64px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --font-sm: 0.65rem;
+  --font-base: 0.9rem;
+  --font-lg: 1.1rem;
+}
+
+/* 800×600 — écran plus petit, on resserre */
+@media (max-width: 900px), (max-height: 650px) {
+  :root {
+    --topbar-height: 44px;
+    --navbar-height: 56px;
+    --spacing-sm: 6px;
+    --spacing-md: 12px;
+    --spacing-lg: 18px;
+    --font-sm: 0.6rem;
+    --font-base: 0.8rem;
+    --font-lg: 1rem;
+  }
+}
+
+/* 1366×1024 — écran plus grand, on aère */
+@media (min-width: 1300px) and (min-height: 900px) {
+  :root {
+    --topbar-height: 60px;
+    --navbar-height: 72px;
+    --spacing-sm: 10px;
+    --spacing-md: 20px;
+    --spacing-lg: 32px;
+    --font-sm: 0.7rem;
+    --font-base: 1rem;
+    --font-lg: 1.25rem;
+  }
+}
+
+/* Toujours en paysage */
+@media (orientation: portrait) {
+  body::before {
+    content: 'Veuillez pivoter votre écran en mode paysage';
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0d1117;
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    padding: 24px;
+    z-index: 9999;
+  }
+}

@@ -1,0 +1,126 @@
+.page {
+  display: flex;
+  height: 100%;
+  background: #0d1117;
+  overflow: hidden;
+}
+
+/* Sidebar filtres */
+.sidebar {
+  width: 140px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-lg) var(--spacing-md);
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.filterBtn {
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: var(--font-base);
+  text-align: left;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.filterBtn:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.filterBtnActive {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.12);
+  font-weight: 600;
+}
+
+/* Contenu principal */
+.content {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--spacing-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.15) transparent;
+}
+
+.content::-webkit-scrollbar {
+  width: 4px;
+}
+
+.content::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 4px;
+}
+
+/* Section titre */
+.sectionTitle {
+  font-size: var(--font-lg);
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: var(--spacing-sm);
+}
+
+/* Carousel — base 1024×768 */
+.carousel {
+  display: flex;
+  gap: var(--spacing-md);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: var(--spacing-sm);
+  scrollbar-width: none;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel > * {
+  flex-shrink: 0;
+  width: 260px;
+  scroll-snap-align: start;
+}
+
+/* Grille — base 1024×768 */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: var(--spacing-md);
+}
+
+/* 800×600 */
+@media (max-width: 900px), (max-height: 650px) {
+  .sidebar {
+    width: 110px;
+  }
+
+  .carousel > * {
+    width: 200px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+}
+
+/* 1366×1024 */
+@media (min-width: 1300px) and (min-height: 900px) {
+  .sidebar {
+    width: 160px;
+  }
+
+  .carousel > * {
+    width: 300px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "meals": [
+    {
+      "id": 1,
+      "name": "Poulet rôti aux herbes de Provence",
+      "description": "Accompagné de riz créole et de légumes de saison",
+      "category": "Plat principal",
+      "tags": ["Viande", "Sans gluten possible"]
+    },
+    {
+      "id": 2,
+      "name": "Filet de daurade, beurre citronné",
+      "description": "Servi avec une purée de patate douce et haricots verts",
+      "category": "Plat principal",
+      "tags": ["Poisson"]
+    },
+    {
+      "id": 3,
+      "name": "Gratin de légumes du soleil",
+      "description": "Courgettes, poivrons et tomates gratinés au fromage",
+      "category": "Plat principal",
+      "tags": ["Végétarien"]
+    },
+    {
+      "id": 4,
+      "name": "Salade niçoise",
+      "description": "Thon, œuf, olives, tomates cerises et vinaigrette maison",
+      "category": "Entrée",
+      "tags": ["Poisson"]
+    },
+    {
+      "id": 5,
+      "name": "Fondant au chocolat",
+      "description": "Cœur coulant, servi avec une crème anglaise vanillée",
+      "category": "Dessert",
+      "tags": ["Végétarien"]
+    },
+    {
+      "id": 6,
+      "name": "Ananas frais de Martinique",
+      "description": "Tranches d'ananas Victoria, citron vert et menthe fraîche",
+      "category": "Dessert",
+      "tags": ["Végétarien", "Sans gluten"]
+    }
+  ],
+  "drinks": [
+    {
+      "id": 1,
+      "name": "Eau minérale",
+      "category": "Sans alcool",
+      "options": ["Plate", "Gazeuse"]
+    },
+    {
+      "id": 2,
+      "name": "Jus de fruits",
+      "category": "Sans alcool",
+      "options": ["Orange", "Pomme", "Goyave", "Maracuja"]
+    },
+    {
+      "id": 3,
+      "name": "Sodas",
+      "category": "Sans alcool",
+      "options": ["Cola", "Limonade", "Tonic"]
+    },
+    {
+      "id": 4,
+      "name": "Café & thé",
+      "category": "Chaud",
+      "options": ["Café expresso", "Café allongé", "Thé noir", "Infusion"]
+    },
+    {
+      "id": 5,
+      "name": "Punch martiniquais",
+      "category": "Alcool",
+      "options": ["Punch planteur", "Ti' punch blanc", "Rhum vieux arrangé"]
+    },
+    {
+      "id": 6,
+      "name": "Vins",
+      "category": "Alcool",
+      "options": ["Bordeaux rouge", "Sancerre blanc", "Rosé de Provence"]
+    }
+  ],
+  "info": [
+    {
+      "id": 1,
+      "title": "Wi-Fi à bord",
+      "description": "Connexion disponible via le portail AirScreen Connect. Forfaits à partir de 8€.",
+      "icon": "wifi"
+    },
+    {
+      "id": 2,
+      "title": "Boutique hors-taxes",
+      "description": "Parfums, cosmétiques, spiritueux et souvenirs disponibles pendant le vol.",
+      "icon": "shopping-bag"
+    },
+    {
+      "id": 3,
+      "title": "Assistance médicale",
+      "description": "Notre équipage est formé aux premiers secours. Appelez pour toute assistance.",
+      "icon": "heart"
+    },
+    {
+      "id": 4,
+      "title": "Consignes de sécurité",
+      "description": "Consultez la carte de sécurité dans la pochette devant vous. Ceinture attachée recommandée.",
+      "icon": "shield"
+    }
+  ]
+}

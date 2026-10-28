@@ -1,0 +1,65 @@
+.wrapper {
+  position: absolute;
+  bottom: calc(var(--spacing-lg) * 4);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 560px;
+  max-width: calc(100% - var(--spacing-lg) * 2);
+}
+
+.airports {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--spacing-sm);
+}
+
+.code {
+  font-size: var(--font-base);
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.9);
+  letter-spacing: 0.08em;
+}
+
+/* Barre */
+.track {
+  position: relative;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 99px;
+}
+
+.fill {
+  height: 100%;
+  background: #fff;
+  border-radius: 99px;
+  transition: width 0.6s ease;
+  /* ← width à appliquer en style inline */
+}
+
+/* Avion */
+.plane {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(90deg);
+  color: #fff;
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.5));
+  transition: left 0.6s ease;
+  /* ← left à appliquer en style inline */
+}
+
+/* Temps restant centré sous la barre */
+.remaining {
+  text-align: center;
+  margin-top: var(--spacing-md);
+  font-size: var(--font-sm);
+  color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 0.04em;
+}
+
+/* Responsive */
+@media (max-width: 900px), (max-height: 650px) {
+  .wrapper {
+    width: 400px;
+    bottom: calc(var(--spacing-lg) * 3);
+  }
+}

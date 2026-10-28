@@ -1,0 +1,34 @@
+{
+  "flightNumber": "TX 501",
+  "airline": "AirScreen",
+  "date": "2026-10-19",
+  "departure": {
+    "city": "Paris",
+    "airport": "Charles de Gaulle",
+    "code": "CDG",
+    "time": "09:15",
+    "terminal": "2E"
+  },
+  "arrival": {
+    "city": "Fort-de-France",
+    "airport": "Aimé Césaire",
+    "code": "FDF",
+    "time": "13:30",
+    "terminal": "1"
+  },
+  "duration": "8h15",
+  "remainingTime": "5h42",
+  "progress": 31,
+  "aircraft": "Airbus A350-900",
+  "seat": "24C",
+  "class": "Économique",
+  "captain": "Capitaine Sophie Martel",
+  "altitude": 11278,
+  "speed": 892,
+  "remainingDistance": "3 210 km",
+  "weather": {
+    "destination": "Ensoleillé",
+    "temperature": 29,
+    "humidity": 74
+  }
+}

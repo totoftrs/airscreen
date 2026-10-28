@@ -1,0 +1,486 @@
+[
+  {
+    "title": "Beyond Earth",
+    "thumbnail": {
+      "trending": {
+        "small": "/assets/thumbnails/beyond-earth/trending/small.jpg",
+        "large": "/assets/thumbnails/beyond-earth/trending/large.jpg"
+      },
+      "regular": {
+        "small": "/assets/thumbnails/beyond-earth/regular/small.jpg",
+        "medium": "/assets/thumbnails/beyond-earth/regular/medium.jpg",
+        "large": "/assets/thumbnails/beyond-earth/regular/large.jpg"
+      }
+    },
+    "year": 2019,
+    "category": "Movie",
+    "rating": "PG",
+    "isBookmarked": false,
+    "isTrending": true,
+    "description": "Une équipe d'astronautes part en mission vers une exoplanète potentiellement habitable. Entre espoir et terreur, ils découvrent que l'univers recèle des secrets que l'humanité n'était pas prête à affronter."
+  },
+  {
+    "title": "Bottom Gear",
+    "thumbnail": {
+      "trending": {
+        "small": "/assets/thumbnails/bottom-gear/trending/small.jpg",
+        "large": "/assets/thumbnails/bottom-gear/trending/large.jpg"
+      },
+      "regular": {
+        "small": "/assets/thumbnails/bottom-gear/regular/small.jpg",
+        "medium": "/assets/thumbnails/bottom-gear/regular/medium.jpg",
+        "large": "/assets/thumbnails/bottom-gear/regular/large.jpg"
+      }
+    },
+    "year": 2021,
+    "category": "Movie",
+    "rating": "PG",
+    "isBookmarked": false,
+    "isTrending": true,
+    "description": "Trois amis passionnés d'automobiles se lancent dans un road trip chaotique à travers l'Europe à bord de voitures improbables. Une comédie déjantée sur l'amitié et la mécanique."
+  },
+  {
+    "title": "Undiscovered Cities",
+    "thumbnail": {
+      "trending": {
+        "small": "/assets/thumbnails/undiscovered-cities/trending/small.jpg",
+        "large": "/assets/thumbnails/undiscovered-cities/trending/large.jpg"
+      },
+      "regular": {
+        "small": "/assets/thumbnails/undiscovered-cities/regular/small.jpg",
+        "medium": "/assets/thumbnails/undiscovered-cities/regular/medium.jpg",
+        "large": "/assets/thumbnails/undiscovered-cities/regular/large.jpg"
+      }
+    },
+    "year": 2019,
+    "category": "TV Series",
+    "rating": "E",
+    "isBookmarked": false,
+    "isTrending": true,
+    "description": "Chaque épisode explore une ville méconnue du monde, révélant ses habitants, sa culture et ses trésors cachés. Un voyage humain et authentique loin des sentiers battus."
+  },
+  {
+    "title": "1998",
+    "thumbnail": {
+      "trending": {
+        "small": "/assets/thumbnails/1998/trending/small.jpg",
+        "large": "/assets/thumbnails/1998/trending/large.jpg"
+      },
+      "regular": {
+        "small": "/assets/thumbnails/1998/regular/small.jpg",
+        "medium": "/assets/thumbnails/1998/regular/medium.jpg",
+        "large": "/assets/thumbnails/1998/regular/large.jpg"
+      }
+    },
+    "year": 2021,
+    "category": "Movie",
+    "rating": "18+",
+    "isBookmarked": false,
+    "isTrending": true,
+    "description": "Retour sur une année charnière à travers les yeux de quatre adolescents dont les destins s'entremêlent. Un drame nostalgique et intense sur la fin de l'innocence."
+  },
+  {
+    "title": "Dark Side of the Moon",
+    "thumbnail": {
+      "trending": {
+        "small": "/assets/thumbnails/dark-side-of-the-moon/trending/small.jpg",
+        "large": "/assets/thumbnails/dark-side-of-the-moon/trending/large.jpg"
+      },
+      "regular": {
+        "small": "/assets/thumbnails/dark-side-of-the-moon/regular/small.jpg",
+        "medium": "/assets/thumbnails/dark-side-of-the-moon/regular/medium.jpg",
+        "large": "/assets/thumbnails/dark-side-of-the-moon/regular/large.jpg"
+      }
+    },
+    "year": 2018,
+    "category": "TV Series",
+    "rating": "PG",
+    "isBookmarked": true,
+    "isTrending": true,
+    "description": "Une scientifique de la NASA détecte des signaux inexpliqués provenant de la face cachée de la Lune. Une série de science-fiction haletante qui repousse les limites du connu."
+  },
+  {
+    "title": "The Great Lands",
+    "thumbnail": {
+      "regular": {
+        "small": "/assets/thumbnails/the-great-lands/regular/small.jpg",
+        "medium": "/assets/thumbnails/the-great-lands/regular/medium.jpg",
+        "large": "/assets/thumbnails/the-great-lands/regular/large.jpg"
+      }
+    },
+    "year": 2019,
+    "category": "Movie",
+    "rating": "E",
+    "isBookmarked": false,
+    "isTrending": false,
+    "description": "Un photographe parcourt les grands espaces sauvages d'Amérique du Nord à la recherche d'un cliché parfait. Un film contemplatif sur la beauté brute de la nature."
+  },
+  {
+    "title": "The Diary",
+    "thumbnail": {
+      "regular": {
+        "small": "/assets/thumbnails/the-diary/regular/small.jpg",
+        "medium": "/assets/thumbnails/the-diary/regular/medium.jpg",
+        "large": "/assets/thumbnails/the-diary/regular/large.jpg"
+      }
+    },
+    "year": 2019,
+    "category": "TV Series",
+    "rating": "PG",
+    "isBookmarked": false,
+    "isTrending": false,
+    "description": "La découverte d'un journal intime centenaire plonge une archiviste dans une enquête qui traverse les époques. Une série dramatique sur la mémoire et les secrets de famille."
+  },
+  {
+    "title": "Earth's Untouched",
+    "thumbnail": {
+      "regular": {
+        "small": "/assets/thumbnails/earths-untouched/regular/small.jpg",
+        "medium": "/assets/thumbnails/earths-untouched/regular/medium.jpg",
+        "large": "/assets/thumbnails/earths-untouched/regular/large.jpg"
+      }
+    },
+    "year": 2017,
+    "category": "Movie",
+    "rating": "18+",
+    "isBookmarked": true,
+    "isTrending": false,
+    "description": "Plongée dans les derniers territoires vierges de notre planète, là où l'homme n'a jamais mis le pied. Un documentaire époustouflant filmé aux confins du monde."
+  },
+  {
+    "title": "No Land Beyond",
+    "thumbnail": {
+      "regular": {
+        "small": "/assets/thumbnails/no-land-beyond/regular/small.jpg",
+        "medium": "/assets/thumbnails/no-land-beyond/regular/medium.jpg",
+        "large": "/assets/thumbnails/no-land-beyond/regular/large.jpg"
+      }
+    },
+    "year": 2019,
+    "category": "Movie",
+    "rating": "E",
+    "isBookmarked": false,
+    "isTrending": false,
+    "description": "Un vétéran de guerre s'exile dans les terres arides du désert pour fuir son passé. Un western contemplatif sur la rédemption et la solitude."
+  },
+  {
+    "title": "During the Hunt",
+    "thumbnail": {
+      "regular": {
+        "small": "/assets/thumbnails/during-the-hunt/regular/small.jpg",
+        "medium": "/assets/thumbnails/during-the-hunt/regular/medium.jpg",
+        "large": "/assets/thumbnails/during-the-hunt/regular/large.jpg"
+      }
+    },
+    "year": 2016,
+    "category": "TV Series",
+    "rating": "PG",
+    "isBookmarked": false,
+    "isTrending": false,
+    "description": "Au cœur des plaines africaines, une équipe de biologistes suit les grandes migrations animales. Une série documentaire immersive sur les lois impitoyables de la nature."
+  },
+  {
+    "title": "Autosport the Series",
+    "thumbnail": {
+      "regular": {
+        "small": "/assets/thumbnails/autosport-the-series/regular/small.jpg",
+        "medium": "/assets/thumbnails/autosport-the-series/regular/medium.jpg",
+        "large": "/assets/thumbnails/autosport-the-series/regular/large.jpg"
+      }
+    },
+    "year": 2016,
+    "category": "TV Series",
+    "rating": "18+",
+    "isBookmarked": false,
+    "isTrending": false,
+    "description": "Les coulisses du monde de la course automobile à travers les yeux de pilotes professionnels. Vitesse, adrénaline et sacrifices dans les paddocks des plus grands championnats."
+  },
+  {
+    "title": "Same Answer II",
+    "thumbnail": {
+      "regular": {
+        "small": "/assets/thumbnails/same-answer-2/regular/small.jpg",
+        "medium": "/assets/thumbnails/same-answer-2/regular/medium.jpg",
+        "large": "/assets/thumbnails/same-answer-2/regular/large.jpg"
+      }
+    },
+    "year": 2017,
+    "category": "Movie",
+    "rating": "E",
+    "isBookmarked": false,
+    "isTrending": false,
+    "description": "Suite du thriller psychologique acclamé. Un détective tente de démasquer un manipulateur qui semble toujours avoir une longueur d'avance. Le jeu du chat et de la souris reprend."
+  },
+  {
+    "title": "Below Echo",
+    "thumbnail": {
+      "regular": {
+        "small": "/assets/thumbnails/below-echo/regular/small.jpg",
+        "medium": "/assets/thumbnails/below-echo/regular/medium.jpg",
+        "large": "/assets/thumbnails/below-echo/regular/large.jpg"
+      }
+    },
+    "year": 2016,
+    "category": "TV Series",
+    "rating": "PG",
+    "isBookmarked": false,
+    "isTrending": false,
+    "description": "Une station de recherche sous-marine reçoit des signaux acoustiques d'origine inconnue depuis les abysses. Une série de science-fiction angoissante entre thriller et mystère."
+  },
+  {
+    "title": "The Rockies",
+    "thumbnail": {
+      "regular": {
+        "small": "/assets/thumbnails/the-rockies/regular/small.jpg",
+        "medium": "/assets/thumbnails/the-rockies/regular/medium.jpg",
+        "large": "/assets/thumbnails/the-rockies/regular/large.jpg"
+      }
+    },
+    "year": 2015,
+    "category": "TV Series",
+    "rating": "E",
+    "isBookmarked": true,
+    "isTrending": false,
+    "description": "Une famille quitte la ville pour s'installer dans les Rocheuses canadiennes. Une série familiale chaleureuse sur l'adaptation, la nature et les liens qui unissent les gens."
+  },
+  {
+    "title": "Relentless",
+    "thumbnail": {
+      "regular": {
+        "small": "/assets/thumbnails/relentless/regular/small.jpg",
+        "medium": "/assets/thumbnails/relentless/regular/medium.jpg",
+        "large": "/assets/thumbnails/relentless/regular/large.jpg"
+      }
+    },
+    "year": 2017,
+    "category": "Movie",
+    "rating": "PG",
+    "isBookmarked": true,
+    "isTrending": false,
+    "description": "Un agent infiltré découvre que l'organisation criminelle qu'il traque est bien plus puissante qu'il ne le pensait. Un thriller d'action sans temps mort."
+  },
+  {
+    "title": "Community of Ours",
+    "thumbnail": {
+      "regular": {
+        "small": "/assets/thumbnails/community-of-ours/regular/small.jpg",
+        "medium": "/assets/thumbnails/community-of-ours/regular/medium.jpg",
+        "large": "/assets/thumbnails/community-of-ours/regular/large.jpg"
+      }
+    },
+    "year": 2018,
+    "category": "TV Series",
+    "rating": "18+",
+    "isBookmarked": false,
+    "isTrending": false,
+    "description": "Dans un quartier en pleine gentrification, des habitants de toutes origines se battent pour préserver leur communauté. Une série sociale et engagée, drôle et émouvante."
+  },
+  {
+    "title": "Van Life",
+    "thumbnail": {
+      "regular": {
+        "small": "/assets/thumbnails/van-life/regular/small.jpg",
+        "medium": "/assets/thumbnails/van-life/regular/medium.jpg",
+        "large": "/assets/thumbnails/van-life/regular/large.jpg"
+      }
+    },
+    "year": 2015,
+    "category": "Movie",
+    "rating": "PG",
+    "isBookmarked": false,
+    "isTrending": false,
+    "description": "Un couple quitte tout pour parcourir l'Amérique à bord d'un vieux van aménagé. Un road movie lumineux sur la liberté, l'amour et l'art de vivre avec peu."
+  },
+  {
+    "title": "The Heiress",
+    "thumbnail": {
+      "regular": {
+        "small": "/assets/thumbnails/the-heiress/regular/small.jpg",
+        "medium": "/assets/thumbnails/the-heiress/regular/medium.jpg",
+        "large": "/assets/thumbnails/the-heiress/regular/large.jpg"
+      }
+    },
+    "year": 2021,
+    "category": "Movie",
+    "rating": "PG",
+    "isBookmarked": true,
+    "isTrending": false,
+    "description": "À la mort de son père, une jeune femme hérite d'un empire familial et découvre des secrets qui remettent tout en question. Un drame élégant sur le pouvoir et la vérité."
+  },
+  {
+    "title": "Off the Track",
+    "thumbnail": {
+      "regular": {
+        "small": "/assets/thumbnails/off-the-track/regular/small.jpg",
+        "medium": "/assets/thumbnails/off-the-track/regular/medium.jpg",
+        "large": "/assets/thumbnails/off-the-track/regular/large.jpg"
+      }
+    },
+    "year": 2017,
+    "category": "Movie",
+    "rating": "18+",
+    "isBookmarked": true,
+    "isTrending": false,
+    "description": "Un champion de rallye en fin de carrière accepte une dernière course clandestine pour sauver sa famille de la faillite. Entre trahison et rédemption, chaque virage peut être le dernier."
+  },
+  {
+    "title": "Whispering Hill",
+    "thumbnail": {
+      "regular": {
+        "small": "/assets/thumbnails/whispering-hill/regular/small.jpg",
+        "medium": "/assets/thumbnails/whispering-hill/regular/medium.jpg",
+        "large": "/assets/thumbnails/whispering-hill/regular/large.jpg"
+      }
+    },
+    "year": 2017,
+    "category": "Movie",
+    "rating": "E",
+    "isBookmarked": false,
+    "isTrending": false,
+    "description": "Une écrivaine s'installe dans une vieille demeure isolée pour finir son roman. Mais les murmures qui traversent les murs la convainquent qu'elle n'est pas seule."
+  },
+  {
+    "title": "112",
+    "thumbnail": {
+      "regular": {
+        "small": "/assets/thumbnails/112/regular/small.jpg",
+        "medium": "/assets/thumbnails/112/regular/medium.jpg",
+        "large": "/assets/thumbnails/112/regular/large.jpg"
+      }
+    },
+    "year": 2013,
+    "category": "TV Series",
+    "rating": "PG",
+    "isBookmarked": false,
+    "isTrending": false,
+    "description": "Le quotidien des équipes de secours d'urgence dans une grande ville. Entre drames humains et moments de solidarité, une série réaliste qui rend hommage aux premiers intervenants."
+  },
+  {
+    "title": "Lone Heart",
+    "thumbnail": {
+      "regular": {
+        "small": "/assets/thumbnails/lone-heart/regular/small.jpg",
+        "medium": "/assets/thumbnails/lone-heart/regular/medium.jpg",
+        "large": "/assets/thumbnails/lone-heart/regular/large.jpg"
+      }
+    },
+    "year": 2017,
+    "category": "Movie",
+    "rating": "E",
+    "isBookmarked": true,
+    "isTrending": false,
+    "description": "Deux inconnus se croisent lors d'un voyage en train et partagent leurs histoires brisées. Un film romantique et poétique sur les rencontres qui changent une vie."
+  },
+  {
+    "title": "Production Line",
+    "thumbnail": {
+      "regular": {
+        "small": "/assets/thumbnails/production-line/regular/small.jpg",
+        "medium": "/assets/thumbnails/production-line/regular/medium.jpg",
+        "large": "/assets/thumbnails/production-line/regular/large.jpg"
+      }
+    },
+    "year": 2018,
+    "category": "TV Series",
+    "rating": "PG",
+    "isBookmarked": false,
+    "isTrending": false,
+    "description": "Plongée au cœur des plus grandes usines du monde, de l'aéronautique à l'agroalimentaire. Une série fascinante sur les hommes et les machines qui fabriquent notre quotidien."
+  },
+  {
+    "title": "Dogs",
+    "thumbnail": {
+      "regular": {
+        "small": "/assets/thumbnails/dogs/regular/small.jpg",
+        "medium": "/assets/thumbnails/dogs/regular/medium.jpg",
+        "large": "/assets/thumbnails/dogs/regular/large.jpg"
+      }
+    },
+    "year": 2016,
+    "category": "TV Series",
+    "rating": "E",
+    "isBookmarked": true,
+    "isTrending": false,
+    "description": "Des histoires vraies sur le lien extraordinaire entre les chiens et leurs maîtres à travers le monde. Une série émouvante qui célèbre la loyauté et l'amour inconditionnel."
+  },
+  {
+    "title": "Asia in 24 Days",
+    "thumbnail": {
+      "regular": {
+        "small": "/assets/thumbnails/asia-in-24-days/regular/small.jpg",
+        "medium": "/assets/thumbnails/asia-in-24-days/regular/medium.jpg",
+        "large": "/assets/thumbnails/asia-in-24-days/regular/large.jpg"
+      }
+    },
+    "year": 2020,
+    "category": "TV Series",
+    "rating": "PG",
+    "isBookmarked": false,
+    "isTrending": false,
+    "description": "Un globe-trotteur traverse douze pays asiatiques en vingt-quatre jours, une culture par épisode. Gastronomie, traditions et rencontres improbables au fil d'une aventure humaine unique."
+  },
+  {
+    "title": "The Tasty Tour",
+    "thumbnail": {
+      "regular": {
+        "small": "/assets/thumbnails/the-tasty-tour/regular/small.jpg",
+        "medium": "/assets/thumbnails/the-tasty-tour/regular/medium.jpg",
+        "large": "/assets/thumbnails/the-tasty-tour/regular/large.jpg"
+      }
+    },
+    "year": 2016,
+    "category": "TV Series",
+    "rating": "PG",
+    "isBookmarked": false,
+    "isTrending": false,
+    "description": "Un chef cuisinier part à la rencontre des meilleures tables de rue du monde. Une série savoureuse qui mêle voyage, gastronomie populaire et histoires de vie."
+  },
+  {
+    "title": "Darker",
+    "thumbnail": {
+      "regular": {
+        "small": "/assets/thumbnails/darker/regular/small.jpg",
+        "medium": "/assets/thumbnails/darker/regular/medium.jpg",
+        "large": "/assets/thumbnails/darker/regular/large.jpg"
+      }
+    },
+    "year": 2017,
+    "category": "Movie",
+    "rating": "18+",
+    "isBookmarked": true,
+    "isTrending": false,
+    "description": "Un journaliste d'investigation disparaît après avoir publié un article compromettant sur un groupe financier. Sa collègue décide de mener l'enquête seule, à ses risques et périls."
+  },
+  {
+    "title": "Unresolved Cases",
+    "thumbnail": {
+      "regular": {
+        "small": "/assets/thumbnails/unresolved-cases/regular/small.jpg",
+        "medium": "/assets/thumbnails/unresolved-cases/regular/medium.jpg",
+        "large": "/assets/thumbnails/unresolved-cases/regular/large.jpg"
+      }
+    },
+    "year": 2018,
+    "category": "TV Series",
+    "rating": "18+",
+    "isBookmarked": false,
+    "isTrending": false,
+    "description": "Une unité spéciale de la police rouvre les cold cases les plus mystérieux du pays. Chaque épisode retrace une affaire non résolue avec de nouvelles preuves et témoignages inédits."
+  },
+  {
+    "title": "Mission: Saturn",
+    "thumbnail": {
+      "regular": {
+        "small": "/assets/thumbnails/mission-saturn/regular/small.jpg",
+        "medium": "/assets/thumbnails/mission-saturn/regular/medium.jpg",
+        "large": "/assets/thumbnails/mission-saturn/regular/large.jpg"
+      }
+    },
+    "year": 2017,
+    "category": "Movie",
+    "rating": "PG",
+    "isBookmarked": true,
+    "isTrending": false,
+    "description": "Une sonde spatiale en route vers Saturne détecte une anomalie inexplicable dans les anneaux de la planète. Un film de science-fiction rigoureux et époustouflant visuellement."
+  }
+]

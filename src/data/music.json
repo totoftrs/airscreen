@@ -1,0 +1,61 @@
+[
+  {
+    "id": 1,
+    "title": "Karukéra",
+    "artist": "Jacob Desvarieux",
+    "genre": "Zouk",
+    "year": 2022,
+    "cover": "/assets/music/karukera.jpg",
+    "tracks": [
+      { "id": 1, "title": "Lévé Kanpé", "duration": "4:12" },
+      { "id": 2, "title": "Soleil Levant", "duration": "3:58" },
+      { "id": 3, "title": "Île de rêve", "duration": "5:01" },
+      { "id": 4, "title": "Bèlè Matin", "duration": "4:33" },
+      { "id": 5, "title": "Lanmou Pa Fasil", "duration": "3:47" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Lumières d'Outre-Mer",
+    "artist": "Kassav'",
+    "genre": "Zouk",
+    "year": 2023,
+    "cover": "/assets/music/lumieres.jpg",
+    "tracks": [
+      { "id": 1, "title": "Zouk la sé sèl médikaman", "duration": "4:45" },
+      { "id": 2, "title": "Antilles", "duration": "3:52" },
+      { "id": 3, "title": "Mwen Malad Aw", "duration": "4:10" },
+      { "id": 4, "title": "Siyé Bwa", "duration": "5:23" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Paris–Caraïbe",
+    "artist": "Compilation",
+    "genre": "Variété française",
+    "year": 2024,
+    "cover": "/assets/music/paris-caraibe.jpg",
+    "tracks": [
+      { "id": 1, "title": "La Mer", "duration": "3:05" },
+      { "id": 2, "title": "Petit Pays", "duration": "4:18" },
+      { "id": 3, "title": "Les Îles", "duration": "3:44" },
+      { "id": 4, "title": "Ailleurs", "duration": "4:02" },
+      { "id": 5, "title": "Tropiques", "duration": "3:31" },
+      { "id": 6, "title": "Horizon", "duration": "4:55" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Bossa Atlantique",
+    "artist": "Eliane Elias",
+    "genre": "Jazz / Bossa Nova",
+    "year": 2023,
+    "cover": "/assets/music/bossa.jpg",
+    "tracks": [
+      { "id": 1, "title": "Águas de Março", "duration": "3:28" },
+      { "id": 2, "title": "Corcovado", "duration": "4:14" },
+      { "id": 3, "title": "Wave", "duration": "3:55" },
+      { "id": 4, "title": "Garota de Ipanema", "duration": "3:40" }
+    ]
+  }
+]
