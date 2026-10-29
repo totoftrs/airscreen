@@ -1,93 +1,65 @@
-1 - Navbar principale : Accueil · Mon vol · Vidéos · Musique · Services à bord 
+# AirScreen — Prototype IFE
 
+Prototype d'interface de divertissement à bord (In-Flight Entertainment), conçu pour simuler l'expérience d'un écran de siège d'avion.
 
-2 - Poser les fondations
-React, TypeScript, routing, layout et navbar responsive.
-Priorité haute
+**Démo** : [airscreen-tau.vercel.app](https://airscreen-tau.vercel.app)
 
-Construire le catalogue vidéo
-Types TypeScript, données fictives, cartes réutilisables et grille de films.
+---
 
-3 - Pour ne pas te disperser, je commencerais avec :
-- Une navbar fonctionnelle.
-- Une page d'accueil avec quelques informations sur le vol (faire de la page d'accueil la page "mon vol" avec un fond d'écran épuré et une modal depliable avec des infos du vol).
-- Un catalogue de films avec recherche et filtres.
-- Une fiche détaillée de film.
-- Des données fictives typées en TypeScript.
-- Un design adapté à un écran tactile d'avion.
-Une fois cette base solide, tu pourras ajouter les séries, les documentaires, la musique et les services.
-Le premier objectif concret : créer MainLayout.tsx, Navbar.tsx, VideosPage.tsx, MediaCard.tsx et un type Media en TypeScript. Cela te donnera une architecture fonctionnelle sans surconcevoir le projet avant d'avoir développé la première page.
+## Aperçu
 
-4 - Pour AirScreen, je testerais principalement 1024 × 768 px, puis 800 × 600 px et 1366 × 1024 px, toujours en orientation paysage.
+AirScreen reproduit une interface IFE complète avec navigation, catalogue de médias, informations de vol en temps réel et services à bord. L'interface est optimisée pour une utilisation tactile en mode paysage sur tablette ou ordinateur.
 
-5 - Idée de structure : 
+---
 
+## Pages
+
+| Page | Description |
+|------|-------------|
+| **Accueil** | Fond d'écran épuré + bannière de vol dépliable avec barre de progression |
+| **Médias** | Catalogue de films et séries avec filtres, carousel tendances et vue détail |
+| **Musique** | Grille d'albums avec tracklist intégrée |
+| **Services** | Menu repas, boissons et informations pratiques (WiFi, bagages...) |
+
+---
+
+## Stack
+
+- **React 19** + **TypeScript**
+- **Vite 8**
+- **React Router DOM** — routing avec transitions CSS
+- **React Icons**
+- **CSS Modules** — styles scopés par composant
+
+---
+
+## Points techniques
+
+- **État dérivé** : filtrage du catalogue sans `useEffect` inutile
+- **Transitions entre pages** : pattern `key={location.pathname}` pour rejouer l'animation CSS à chaque navigation
+- **CSS Modules + variables CSS** : responsive sur 3 résolutions (1024×768, 800×600, 1366×1024) en orientation paysage
+- **TypeScript strict** : types externalisés dans `src/types/`, `import type` systématique
+- **Blocage mobile** : composant `BlockedScreen` via media queries CSS uniquement
+
+---
+
+## Structure
+
+```
 src/
-├── app/
-│   ├── App.tsx
-│   ├── router.tsx
-│   └── layout/
-│       ├── MainLayout.tsx
-│       ├── Navbar.tsx
-│       └── PageContainer.tsx
-│
-├── components/
-│   ├── ui/
-│   │   ├── Button.tsx
-│   │   ├── Input.tsx
-│   │   ├── Badge.tsx
-│   │   └── Loader.tsx
-│   ├── media/
-│   │   ├── MediaCard.tsx
-│   │   ├── MediaRow.tsx
-│   │   ├── MediaGrid.tsx
-│   │   ├── MediaDetails.tsx
-│   │   └── MediaFilters.tsx
-│   └── common/
-│       ├── SearchBar.tsx
-│       └── SectionTitle.tsx
-│
-├── features/
-│   ├── home/
-│   │   └── HomePage.tsx
-│   ├── flight/
-│   │   └── FlightPage.tsx
-│   ├── videos/
-│   │   ├── VideosPage.tsx
-│   │   ├── MoviesPage.tsx
-│   │   ├── SeriesPage.tsx
-│   │   ├── DocumentariesPage.tsx
-│   │   └── MediaDetailsPage.tsx
-│   ├── music/
-│   │   └── MusicPage.tsx
-│   ├── services/
-│   │   └── ServicesPage.tsx
-│   └── search/
-│       └── SearchPage.tsx
-│
-├── data/
-│   ├── media.ts
-│   ├── playlists.ts
-│   └── flight.ts
-│
-├── types/
-│   ├── media.ts
-│   ├── flight.ts
-│   └── music.ts
-│
-├── hooks/
-│   └── useMedia.ts
-│
-├── assets/
-│   └── images/
-│
-└── main.tsx
+├── components/     # Layout, TopBar, BottomNavBar, FlightBanner, BlockedScreen
+├── pages/          # FlightPage, MediaPage, MediaDetailPage, MusicPage, ServicesPage
+├── data/           # JSON statiques (flight, media, music, services)
+├── types/          # Interfaces TypeScript métier
+└── hooks/          # Prévu pour hooks custom si besoin
+```
 
-## Note technique — chemins des images (à traiter)
+---
 
-Les chemins dans `media.json` utilisent des chemins relatifs (`./assets/thumbnails/...`)
-qui ne fonctionnent pas directement avec Vite lors de l'import JSON.
+## Résolutions testées
 
-**Solution à implémenter** : déplacer les images dans `public/assets/thumbnails/`
-et mettre à jour les chemins en `/assets/thumbnails/...` (chemin absolu),
-ou importer les images statiquement via Vite.
+| Résolution | Orientation |
+|------------|-------------|
+| 1024 × 768 | Paysage (cible principale) |
+| 800 × 600  | Paysage |
+| 1366 × 1024 | Paysage |
