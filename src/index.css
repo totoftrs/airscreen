@@ -55,20 +55,3 @@ body {
   }
 }
 
-/* Toujours en paysage */
-@media (orientation: portrait) {
-  body::before {
-    content: 'Veuillez pivoter votre écran en mode paysage';
-    position: fixed;
-    inset: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #0d1117;
-    color: #fff;
-    font-size: 1rem;
-    text-align: center;
-    padding: 24px;
-    z-index: 9999;
-  }
-}
